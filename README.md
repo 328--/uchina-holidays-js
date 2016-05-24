@@ -6,7 +6,7 @@
 ## Use with Node
 
 ```
-$ npm install japanese-holidays
+$ npm install 
 ```
 
 ## License
