@@ -91,6 +91,7 @@ definition = [
     [ "みどりの日",               simpleHoliday( 5,  4), 2007       ],
     [ "こどもの日",               simpleHoliday( 5,  5), 1949       ],
     [ "皇太子徳仁親王の結婚の儀", simpleHoliday( 6,  9), 1993, 1993 ],
+    [ "慰霊の日",                 simpleHoliday( 6, 23), 1974,      ],
     [ "海の日",                   simpleHoliday( 7, 20), 1996, 2002 ],
     [ "海の日",                   happyMonday(   7,  3), 2003       ],
     [ "山の日",                   simpleHoliday( 8, 11), 2016       ],
