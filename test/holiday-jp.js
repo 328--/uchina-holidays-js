@@ -1330,7 +1330,7 @@ const data = // holiday-jp の結果をいくつか修正した物
   [ 'Fri Dec 23 2050 00:00:00', '天皇誕生日' ] ];
 
 const assert = require('assert');
-const Holidays = require('../lib/japanese-holidays.js');
+const Holidays = require('../lib/uchina-holidays.js');
 
 // holidays-jp の祝日が正しく祝日として判定されること
 data.forEach(function(h){

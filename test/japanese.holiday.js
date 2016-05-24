@@ -7,7 +7,7 @@
 */
 
 var assert = require('assert');
-var Holidays = require('../lib/japanese-holidays.js');
+var Holidays = require('../lib/uchina-holidays.js');
 
 /////////////////////////////////////////////////////// ここから japanese.holiday.js
 
@@ -447,9 +447,10 @@ for(var y=1949; y<2100; y++){
 
     // japanese.holiday.js で山の日とその振替休日が定義されていない
     // 2074/9/23 の秋分が正しく計算されない
-    if ( h.name=="山の日" || 
+    if ( h.name=="山の日" ||
          (h.month==8 && h.date==12 && h.name=="振替休日") ||
-         (y==2074 && h.month==9 && h.date==23 && h.name=="秋分の日") )
+         (y==2074 && h.month==9 && h.date==23 && h.name=="秋分の日")  ||
+	 h.name=="慰霊の日" || (h.month==6 && h.date==24 && h.name=="振替休日") )
       return;
 
     assert( name === h.name,

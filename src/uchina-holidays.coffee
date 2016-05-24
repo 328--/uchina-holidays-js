@@ -1,8 +1,8 @@
 ###
 
-    日本の休日を JavaScript で計算するためのライブラリ
-                         Osamu Takeuchi <osamu@big.jp>
-
+    日本+沖縄の休日を JavaScript で計算するためのライブラリ
+                         Yuya ASATO
+    forked https://github.com/osamutake/japanese-holidays-js
 ###
 
 "use strict"
