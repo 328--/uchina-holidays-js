@@ -2,10 +2,10 @@
 
 all: lib/japanese-holidays.js lib/japanese-holidays.min.js
 
-lib/japanese-holidays.js: src/japanese-holidays.coffee
-	@coffee -o lib -cm $<
+lib/japanese-holidays.js: src/uchina-holidays.coffee
+	@/usr/local/bin/coffee -o lib -cm $<
 
-lib/japanese-holidays.min.js: src/japanese-holidays.coffee
+lib/japanese-holidays.min.js: src/uchina-holidays.coffee
 	@node_modules/uglify-js/bin/uglifyjs lib/japanese-holidays.js -c \
 		--in-source-map lib/japanese-holidays.js.map \
 		--source-map lib/japanese-holidays.min.js.map \
